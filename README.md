@@ -18,4 +18,4 @@ Supporting above functions for .docx files
 
 # Project Structure
 Front end: Vue3 with Javascript (/src) 
-Back end: Python3 with Django (.views)
+Back end: Python3 with Django
