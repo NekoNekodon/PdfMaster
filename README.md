@@ -12,6 +12,8 @@ PDF to image (.jpg or .png)
 
 PDF watermark removal: able to remove text base watermark 
 
+*PDF security scan
+
 # Future plan
 PDF OCR scanning to .txt 
 
