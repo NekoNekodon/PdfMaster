@@ -1,0 +1,169 @@
+/* 全局基准字号，1em = 16px */
+html {
+  font-size: 100%;
+}
+.pdf-editor-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  gap: 1em;
+  padding: 1em;
+  box-sizing: border-box;
+  background: #f5f7fa;
+}
+.left-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow-y: auto;
+}
+.right-panel {
+  width: 20em;
+  background: #fff;
+  border-radius: 0.5em;
+  padding: 1em;
+  box-shadow: 0 0.125em 0.75em rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between;
+  overflow-y: auto;
+}
+.panel-title {
+  font-size: 1em;
+  font-weight: 600;
+  margin-bottom: 1em;
+}
+.cut-list-title {
+  font-weight: 500;
+  margin: 0.75em 0 0.5em;
+}
+.cut-list {
+  flex: 1;
+  overflow-y: auto;
+}
+.cut-item {
+  border: 1px solid #eee;
+  border-radius: 0.375em;
+  padding: 0.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5em;
+}
+.cut-name {
+  font-weight: 500;
+}
+.cut-range {
+  color: #666;
+  font-size: 0.8125em;
+}
+.empty-tip {
+  color: #999;
+  text-align: center;
+  padding: 1.25em 0;
+}
+.full-btn {
+  width: 100%;
+  margin-top: 0.75em;
+}
+.default-btn {
+  font-size: 1.2em;
+  width: 10em;
+  height: 3em;
+}
+.center-btn {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1em;
+}
+.del-close-btn {
+  padding: 0;
+  font-size: 1em;
+}
+
+/* PdfUploadDrag 上传组件公共样式 */
+.upload-drop-area {
+  height: 37.5em;
+  flex: 1;
+  border: 0.125em dashed #c0c4cc;
+  border-radius: 0.625em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75em;
+  transition: 0.2s;
+}
+.upload-drop-area.drag_over {
+  border-color: #409eff;
+  background: #ecf5ff;
+}
+.tip {
+  font-size: 1.875em;
+  color: #303133;
+  margin: 0;
+}
+.sub-tip {
+  font-size: 1.25em;
+  color: #909399;
+  margin: 0;
+}
+
+/* PdfPreview 预览公共样式 */
+.pdf-top-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.75em;
+  margin-bottom: 0.75em;
+}
+.file-name {
+  color: #666;
+}
+.pdf-canvas-box {
+  height: 37.5em;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #e6e6e6;
+  padding: 1.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.pdf-page-item {
+  background: #fff;
+  box-shadow: 0 0.125em 0.5em rgba(0,0,0,0.1);
+}
+.page-label {
+  text-align: center;
+  padding: 0.375em;
+  font-size: 0.8125em;
+  color: #666;
+}
+canvas {
+  display: block;
+}
+
+/* 1. 页面说明模块，全部拆分页面专用 */
+.split-all-desc {
+  line-height: 1.6;
+  color: #303133;
+  padding: 0.5em;
+  background: #f8f9fa;
+  border-radius: 0.4em;
+  margin-bottom: 1em;
+}
+.split-all-desc p {
+  margin: 0.4em 0;
+}
+.success-tip {
+  color: #00b42a !important;
+  font-weight: 500;
+}
+
+.panel-title {
+  text-align: center;
+}

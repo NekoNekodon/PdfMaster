@@ -1,0 +1,1 @@
+import{L as e,P as t,at as n}from"./vueuse-CUlDjVQN.js";import{i as r}from"./index-kuwKf6KC.js";var i={},a={style:{padding:`20px`}};function o(r,i){return n(),e(`div`,a,[...i[0]||=[t(`h2`,null,`多PDF融合合并`,-1),t(`p`,null,`功能开发中...`,-1)]])}var s=r(i,[[`render`,o]]);export{s as default};

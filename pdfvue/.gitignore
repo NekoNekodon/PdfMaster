@@ -1,0 +1,84 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+__pycache__/
+*.py[cod]
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# ===================== 通用系统文件 =====================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+# ===================== Vue3 Frontend =====================
+pdfvue/node_modules/
+pdfvue/.vite/
+pdfvue/dist/
+pdfvue/dist-ssr/
+pdfvue/coverage/
+pdfvue/.env.local
+pdfvue/.env.development.local
+pdfvue/.env.production.local
+pdfvue/npm-debug.log*
+pdfvue/yarn-debug.log*
+pdfvue/yarn-error.log*
+pdfvue/pnpm-debug.log*
+pdfvue/.cache/
+pdfvue/staticfiles
+pdfvue/.vscode/
+# ===================== Django Python Backend =====================
+pdf-back/static/pdfjs/
+pdf-back/*.pyc
+pdf-back/__pycache__/
+pdf-back/venv/
+pdf-back/env/
+pdf-back/.env
+pdf-back/.env.*
+pdf-back/db.sqlite3
+pdf-back/db.sqlite3-journal
+pdf-back/media/
+pdf-back/static_build/
+pdf-back/logs/
+pdf-back/tmp/
+pdf-back/.pytest_cache/
+pdf-back/*.egg-info
+pdf-back/build/
+pdf-back/dist/
+pdf-back/*.whl
+pdf-back/.idea/
+# ===================== 项目临时文件（PDF处理缓存、导出图片） =====================
+# 运行时产生的临时PDF、图片、水印缓存，不要提交
+tmp_files/
+output_cache/
+*.pdf.tmp
+*.jpg.tmp
+*.png.tmp
+
+# ===================== 密钥、敏感配置 重要！ =====================
+*.secret
+secret_key.txt
+pdf-back/secret_settings.py
