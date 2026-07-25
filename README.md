@@ -30,5 +30,5 @@ AI reading
 Supporting above functions for .docx files 
 
 # Project Structure
-Front end: Vue3 with Javascript (/src) 
+Front end: Vue3 with Javascript
 Back end: Python3 with Django
