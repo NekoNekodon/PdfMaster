@@ -13,6 +13,10 @@ PDF to image (.jpg or .png)
 PDF watermark removal: able to remove text base watermark 
 
 *PDF security scan
+![Program Preview](preview/1.png)
+![Program Preview](preview/2.png)
+![Program Preview](preview/3.png)
+![Program Preview](preview/sc.png)
 
 # Future plan
 PDF OCR scanning to .txt 
